@@ -92,9 +92,18 @@ html {
     letter-spacing: -0.01em;
 }
 
+.fs-large {
+  font-size: 6.5vw;
+  line-height: 1.2;
+}
+
 @media (min-width: 1024px) {
   html {
       font-size: 2vw;
+      line-height: 1.1;
+  }
+  .fs-large {
+      font-size: 4vw;
       line-height: 1.1;
   }
 }

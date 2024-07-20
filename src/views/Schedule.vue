@@ -37,7 +37,7 @@ export default {
       agendas: {
           query: gql `
                         {
-                          agendas(where: {semester: s1_2024}, orderBy: weekNumber_ASC) {
+                          agendas(where: {semester: s2_2024}, orderBy: weekNumber_ASC) {
                             date
                             dateName
                             weekNumber

@@ -5,7 +5,11 @@
     <!-- <div class="fixed p-2 top-0 left-0 h-screen w-screen backdrop-blur-2xl z-50 notice flex items-center">
       <div>15.01.24 <br> Digital Publishing(DPub) is currently being updated. Please return shortly. <br> For more infomation contact Uriah Gray. <br> Uriah.Gray@monash.edu</div>
     </div> -->
-
+    <div class="px-2 md:px-8 mb-2 ff-f fs-large hover:font-sans">
+      <div v-for="introduction in introductions" class="">
+        {{introduction.byline}}
+      </div>
+    </div>
     <div class="">
       <div v-for="introduction in introductions" class="px-2 md:px-8">
         <div class="background">
@@ -13,11 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="px-2 md:px-8 mb-8 ff-f hover:font-sans">
-      <div v-for="introduction in introductions" class="">
-        {{introduction.byline}}
-      </div>
-    </div>
+
     
     <!-- <div class="px-2 md:px-8">
       <div v-for="introduction in introductions" class="">
