@@ -5,7 +5,7 @@ import path from 'path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-fetch(`https://api-ap-southeast-2.hygraph.com/v2/clotcrrejx17101uq61q6420n/master`, {
+fetch(`https://api-ap-northeast-1.graphcms.com/v2/ckl1wtnqpdyys01z8by83h8k9/master`, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({

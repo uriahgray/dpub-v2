@@ -3,7 +3,7 @@ import './fonts.css'
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
-import store from './store';
+
 
 // Apollo Client imports
 import { ApolloClient, InMemoryCache } from '@apollo/client/core';
@@ -19,7 +19,7 @@ const cache = new InMemoryCache({
 // Create the Apollo client instance
 const apolloClient = new ApolloClient({
   cache,
-  link: createHttpLink({ uri: 'https://api-ap-southeast-2.hygraph.com/v2/clotcrrejx17101uq61q6420n/master' }),
+  link: createHttpLink({ uri: 'https://api-ap-northeast-1.graphcms.com/v2/ckl1wtnqpdyys01z8by83h8k9/master' }),
 });
 
 // Create the Apollo provider
@@ -32,6 +32,6 @@ const app = createApp(App);
 
 app.use(apolloProvider); // Use the Apollo provider
 app.use(router);
-app.use(store);
+
 
 app.mount('#app');

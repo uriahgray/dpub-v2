@@ -1,4 +1,6 @@
 @import './base.css';
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 
 
@@ -35,3 +37,7 @@ a,
     padding: 0 2rem;
   }
 }
+
+
+
+

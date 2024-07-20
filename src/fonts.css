@@ -4,14 +4,14 @@
   }
 
   @font-face {
-    font-family:'StaunchTitlingCond-Bold';
-    src: url('./StaunchTitlingCond-Bold.woff');
+    font-family:'fungal';
+    src: url('./Fungal-Grow1000Thickness1000.woff');
   }  
   
 html {
     font-family: 'monument-bold';
 }
 
-.ff-cond {
-    font-family: 'StaunchTitlingCond-Bold';
+.ff-f {
+    font-family: 'fungal';
 }
